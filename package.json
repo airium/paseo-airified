@@ -1,0 +1,36 @@
+{
+  "name": "paseo-airified",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Personal Paseo tweaks and features, starting with compact Markdown thinking rows.",
+  "author": "airium",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airium/paseo-airified.git"
+  },
+  "type": "module",
+  "files": [
+    "paseo-plugin.json",
+    "index.client.tsx",
+    "client/",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "test": "node --test",
+    "check": "npm run typecheck && npm run lint && npm test"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.5",
+    "@getpaseo/plugin": "0.15.2",
+    "@types/react": "~19.2.0",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}

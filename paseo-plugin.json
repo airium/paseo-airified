@@ -1,0 +1,8 @@
+{
+  "id": "paseo-airified",
+  "name": "paseo-airified",
+  "description": "Personal Paseo tweaks and features, starting with compact Markdown thinking rows.",
+  "requirements": {
+    "paseo": ">=0.15.2"
+  }
+}

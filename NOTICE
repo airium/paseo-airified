@@ -1,0 +1,11 @@
+paseo-airified
+Copyright 2026 airium
+
+The thinking timeline integration and tool-row alignment include adaptations
+from Paseo (https://github.com/getpaseo/paseo), licensed under Apache-2.0.
+
+Paseo
+Copyright (c) 2025-present Mohamed Boudra
+
+Modifications include the personal-plugin packaging, collapsed thinking rows,
+Markdown rendering, and conservative topic-label separator handling.
